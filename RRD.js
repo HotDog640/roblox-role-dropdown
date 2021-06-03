@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Roblox Role Dropdown
 // @namespace    https://www.roblox.com/users/694999148/
-// @version      0.9.3
+// @version      0.9.4
 // @description  A simple tool that adds a dropdown menu to change the role of your group members directly from the group wall.
 // @author       HotDog6400
-// @match        *.roblox.com/groups/*
+// @match        https://*.roblox.com/groups/*
 // @grant        none
 // ==/UserScript==
 
