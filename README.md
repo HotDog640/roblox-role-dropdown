@@ -27,7 +27,4 @@ const RRDConfig = {
 ## Disclaimers
 - This code is written in ES6 syntax. This may not work on older browsers. As far as I'm aware, if you use a modern version of Chrome, Edge, Firefox, or Opera; you should be fine.
 - This should work fine in tandem with BTRoblox and Roblox+, though, this has not been thoroughly tested. (It should work with BTRoblox's "Make Group Wall Paged").
-- This does not yet work with Greasemonkey.
-
-## TODO
-- Make this work with Greasemonkey.
+- This userscript is incompatible with Greasemonkey.
