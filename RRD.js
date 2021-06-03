@@ -32,7 +32,7 @@ if (
 
     const groupId = window.location.href.split('/')[4];
 
-    // /** @type {Roles} */
+    /** @type {Roles} */
     const roles = (await $.ajax(`https://groups.roblox.com/v1/groups/${groupId}/roles`)).roles;
     const currentUser = await $.ajax(`https://groups.roblox.com/v1/groups/${groupId}/membership`);
 
@@ -77,7 +77,7 @@ if (
      * @param {number} roleId
      * @param {string} roleName
      */
-    //@ts-ignore
+    // @ts-ignore
     window.changeRole = async (anchor, userId, roleId, roleName) => {
         $.ajax({
             method:'PATCH',
