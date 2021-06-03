@@ -1,5 +1,5 @@
 # Roblox Role Dropdown
-Roblox Role Dropdown (RRD) is a simple tool that adds a dropdown menu to change the role of your group members directly from the group wall.
+**Roblox Role Dropdown (RRD)** is a simple tool that adds a dropdown menu to change the role of your group members directly from the group wall.
 
 ![Screenshot of RRD in action](https://i.imgur.com/z1e7kPZ.png)
 
