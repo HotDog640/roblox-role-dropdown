@@ -1,11 +1,16 @@
 // ==UserScript==
 // @name         Roblox Role Dropdown
-// @namespace    https://www.roblox.com/users/694999148/
-// @version      0.9.4
 // @description  A simple tool that adds a dropdown menu to change the role of your group members directly from the group wall.
 // @author       HotDog6400
+// @copyright    Copyright (c) 2021, 2025 Autumnhd
+// @namespace    https://www.roblox.com/users/694999148/
+// @license      MIT
+// @version      0.9.5
 // @match        https://*.roblox.com/groups/*
+// @match        https://*.roblox.com/communities/*
 // @grant        none
+// @downloadURL  https://update.greasyfork.org/scripts/427430/Roblox%20Role%20Dropdown.user.js
+// @updateURL    https://update.greasyfork.org/scripts/427430/Roblox%20Role%20Dropdown.meta.js
 // ==/UserScript==
 
 /* eslint-disable curly, no-multi-spaces, no-undef */
@@ -23,7 +28,7 @@ const RRDConfig = {
 // * Don't edit beyond this point! (unless you know what you're doing) *
 // *********************************************************************
 if (
-    window.location.href.match(/roblox\.com\/groups\/\d/) && RRDConfig.enabled
+    window.location.href.match(/roblox\.com\/(groups|communities)\/\d/) && RRDConfig.enabled
 ) (async () => {
     'use strict';
     /** @typedef {{ id: number; name: string; rank: number; }[]} Roles */
