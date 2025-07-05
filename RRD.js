@@ -5,7 +5,7 @@
 // @copyright    Copyright (c) 2021, 2025 HotDog640
 // @namespace    https://www.roblox.com/users/694999148/
 // @license      MIT
-// @version      0.9.5
+// @version      0.9.6
 // @match        https://*.roblox.com/groups/*
 // @match        https://*.roblox.com/communities/*
 // @grant        none
@@ -136,7 +136,7 @@ if (
         const userId = /** @type {HTMLAnchorElement} */ ($post.find(
             '.avatar-headshot .avatar-card-link'
         )[0]).href.split('/')[4];
-        const footer = $post.find('.list-body .text-date-hint')[0];
+        const footer = $post.find('.text-caption-medium')[0];
         const content = $post.find('.list-body .list-content')[0];
 
         const footerArr = footer.innerText.split('|');
